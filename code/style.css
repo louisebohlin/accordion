@@ -1,4 +1,37 @@
 html {
   background: #f2f1f4;
   color: #19171c;
+  font-family: 'Kosugi Maru', sans-serif;
+  font-size: 20px;
+}
+
+.accordion {
+  width: 50%;
+  margin: auto;
+}
+
+.description {
+  display: none;
+  background-color: papayawhip;
+  padding: 10px;
+}
+
+.active + .description {
+  display: block;
+}
+
+.title {
+  background-color: lightpink;
+  padding: 10px;
+  border-style: solid;
+  border-color: black;
+}
+
+h1 {
+  font-size: 40px;
+  padding: 10px;
+}
+
+p {
+  font-size: 15px;
 }
