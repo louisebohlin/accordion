@@ -9,3 +9,7 @@ document.getElementById("section2").onclick = function() {
 document.getElementById("section3").onclick = function() {
   this.classList.toggle("active")
 }
+
+document.getElementById("section4").onclick = function() {
+  this.classList.toggle("active")
+}
